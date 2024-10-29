@@ -1,5 +1,5 @@
 #Variable definition
-CC := $(CROSS_COMPILE)gcc
+CC := $(CROSS_COMPILE)
 CFLAGS := -Wall -Wextra -Werror
 TARGET :=writer
 SRC :=writer.c
