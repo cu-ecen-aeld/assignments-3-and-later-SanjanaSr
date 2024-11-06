@@ -58,6 +58,7 @@ do
 	./writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
 done
 #fi
+./finder.sh "$WRITEDIR" "$WRITESTR" > /tmp/assignment4-result.txt
 OUTPUTSTRING=$(./finder.sh "$WRITEDIR" "$WRITESTR")
 
 # remove temporary directories
